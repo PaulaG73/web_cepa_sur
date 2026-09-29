@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "Cepa Sur — Gobierno familiar y corporativo"
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "familyGov": "Gobierno Familiar",
+    "corpGov": "Gobierno Corporativo",
+    "about": "Nosotros",
+    "company": "Empresa",
+    "team": "Equipo",
+    "contact": "Contacto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "hero": {
+    "kicker": "Consultora boutique",
+    "title": "Cepa Sur",
+    "lead": "Gobierno familiar y corporativo para quienes cuidan el legado, ordenan las decisiones y resguardan lo esencial.",
+    "cta": "Solicitar una conversación",
+    "aside": "Confidencialidad absoluta"
+  },
+  "familyGov": {
+    "kicker": "Servicios",
+    "number": "01",
+    "title": "Gobierno Familiar",
+    "lead": "El patrimonio y la empresa atraviesan generaciones cuando las reglas de la familia se escriben con claridad, se discuten con respeto y se sostienen en el tiempo.",
+    "body": "Acompañamos a familias empresarias que necesitan un marco para convivir con la empresa sin que los afectos y los intereses se confundan. El proceso es reservado, a la medida y orientado a acuerdos que se puedan cumplir.",
+    "points": [
+      {
+        "title": "Protocolo familiar",
+        "text": "Acuerdos sobre propiedad, ingreso de familiares, dividendos y resolución de conflictos."
+      },
+      {
+        "title": "Sucesión",
+        "text": "Preparación de la siguiente generación y del traspaso de roles con tiempos y criterios explícitos."
+      },
+      {
+        "title": "Familia y patrimonio",
+        "text": "Órganos de gobierno familiar que dialogan con el directorio y protegen el propósito compartido."
+      }
+    ]
+  },
+  "corpGov": {
+    "kicker": "Servicios",
+    "number": "02",
+    "title": "Gobierno Corporativo",
+    "lead": "Un directorio que funciona, controles que se entienden y decisiones que se documentan marcan la diferencia entre una empresa que dura y una que depende de una sola persona.",
+    "body": "Asesoramos a sociedades, grupos familiares y directorios que buscan institucionalizar la toma de decisiones sin perder agilidad ni el carácter de la organización.",
+    "points": [
+      {
+        "title": "Directorios",
+        "text": "Composición, funcionamiento, evaluación y relación con la gerencia y los accionistas."
+      },
+      {
+        "title": "Controles y transparencia",
+        "text": "Políticas, información para el gobierno y prácticas que sostienen la confianza interna."
+      },
+      {
+        "title": "Continuidad institucional",
+        "text": "Estructuras que permiten crecer, asociarse o suceder sin improvisar el gobierno."
+      }
+    ]
+  },
+  "company": {
+    "kicker": "Nosotros",
+    "number": "03",
+    "title": "La empresa",
+    "lead": "Cepa Sur es una consultora boutique de gobierno familiar y corporativo.",
+    "body": "Operamos con equipos reducidos, mandato claro y absoluta reserva. No somos una firma masiva: elegimos pocos encargos para acompañarlos con profundidad. Nuestro trabajo ocurre fuera del escenario público — en directorios, consejos de familia y conversaciones que requieren discreción.",
+    "values": [
+      {
+        "title": "Reserva",
+        "text": "Nada de lo que se nos confía circula fuera del mandato."
+      },
+      {
+        "title": "Medida",
+        "text": "Cada proceso se diseña para esa familia y esa empresa, no para un catálogo."
+      },
+      {
+        "title": "Seriedad",
+        "text": "Acuerdos escritos, tiempos realistas y un trato directo con quienes deciden."
+      }
+    ]
+  },
+  "team": {
+    "kicker": "Nosotros",
+    "number": "04",
+    "title": "Equipo",
+    "lead": "Un núcleo reducido de socios y asesores, con experiencia en gobierno, familia empresaria y directorios.",
+    "note": "Los perfiles definitivos se publicarán con autorización de cada integrante.",
+    "members": [
+      {
+        "initials": "I",
+        "name": "Integrante a definir",
+        "role": "Socio director — Gobierno Familiar",
+        "bio": "Acompañamiento a familias empresarias en protocolos, sucesión y órganos de familia."
+      },
+      {
+        "initials": "I",
+        "name": "Integrante a definir",
+        "role": "Socio director — Gobierno Corporativo",
+        "bio": "Diseño y fortalecimiento de directorios, controles y toma de decisiones institucional."
+      },
+      {
+        "initials": "I",
+        "name": "Integrante a definir",
+        "role": "Asesor senior",
+        "bio": "Apoyo en mandatos que requieren criterio, reserva y continuidad en el tiempo."
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Contacto",
+    "number": "05",
+    "title": "Conversemos con reserva",
+    "lead": "Cuéntenos, en términos generales, el motivo de la consulta. Responderemos de forma directa y confidencial.",
+    "note": "Las conversaciones con Cepa Sur se tratan de forma reservada. No compartimos información con terceros.",
+    "submit": "Enviar consulta",
+    "sending": "Enviando…",
+    "success": "Hemos recibido su consulta. Le responderemos a la brevedad, con reserva.",
+    "error": "No fue posible enviar el mensaje. Inténtelo nuevamente o escriba más tarde.",
+    "required": "Campo obligatorio",
+    "invalidEmail": "Ingrese un correo válido",
+    "confidentialRequired": "Debe aceptar el tratamiento confidencial para enviar la consulta",
+    "fields": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "role": "Cargo",
+      "company": "Empresa u organización",
+      "email": "Correo corporativo",
+      "phone": "Teléfono",
+      "phoneOptional": "opcional",
+      "topic": "Motivo de la consulta",
+      "message": "Mensaje",
+      "confidential": "Entiendo que esta consulta se trata de forma confidencial."
+    },
+    "topics": {
+      "placeholder": "Seleccione un motivo",
+      "family": "Gobierno Familiar",
+      "corporate": "Gobierno Corporativo",
+      "preliminary": "Conversación preliminar"
+    }
+  },
+  "footer": {
+    "tagline": "Gobierno familiar y corporativo",
+    "confidentiality": "Toda consulta se trata con reserva.",
+    "rights": "Todos los derechos reservados."
+  }
+}

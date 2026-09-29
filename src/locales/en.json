@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "Cepa Sur — Family and corporate governance"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "familyGov": "Family Governance",
+    "corpGov": "Corporate Governance",
+    "about": "About",
+    "company": "Firm",
+    "team": "Team",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "kicker": "Boutique advisory",
+    "title": "Cepa Sur",
+    "lead": "Family and corporate governance for those who protect a legacy, bring order to decisions, and safeguard what matters most.",
+    "cta": "Request a conversation",
+    "aside": "Absolute confidentiality"
+  },
+  "familyGov": {
+    "kicker": "Services",
+    "number": "01",
+    "title": "Family Governance",
+    "lead": "Wealth and the enterprise endure across generations when family rules are written with clarity, discussed with respect, and upheld over time.",
+    "body": "We work with business families that need a framework for living with the company without confusing affection and interest. The process is private, tailored, and oriented toward agreements that can actually be kept.",
+    "points": [
+      {
+        "title": "Family protocol",
+        "text": "Agreements on ownership, family employment, dividends, and the resolution of conflict."
+      },
+      {
+        "title": "Succession",
+        "text": "Preparing the next generation and the transfer of roles with explicit timelines and criteria."
+      },
+      {
+        "title": "Family and wealth",
+        "text": "Family governing bodies that speak with the board and protect a shared purpose."
+      }
+    ]
+  },
+  "corpGov": {
+    "kicker": "Services",
+    "number": "02",
+    "title": "Corporate Governance",
+    "lead": "A board that works, controls that are understood, and decisions that are recorded distinguish a lasting company from one that depends on a single person.",
+    "body": "We advise companies, family groups, and boards seeking to institutionalize decision-making without losing agility or the character of the organization.",
+    "points": [
+      {
+        "title": "Boards",
+        "text": "Composition, working methods, evaluation, and the relationship with management and shareholders."
+      },
+      {
+        "title": "Controls and transparency",
+        "text": "Policies, information for governance, and practices that sustain internal trust."
+      },
+      {
+        "title": "Institutional continuity",
+        "text": "Structures that allow growth, partnership, or succession without improvising governance."
+      }
+    ]
+  },
+  "company": {
+    "kicker": "About",
+    "number": "03",
+    "title": "The firm",
+    "lead": "Cepa Sur is a boutique advisory firm in family and corporate governance.",
+    "body": "We operate with small teams, a clear mandate, and complete discretion. We are not a mass-market firm: we accept few engagements in order to accompany them in depth. Our work takes place off the public stage — in boardrooms, family councils, and conversations that require reserve.",
+    "values": [
+      {
+        "title": "Reserve",
+        "text": "Nothing entrusted to us circulates beyond the mandate."
+      },
+      {
+        "title": "Measure",
+        "text": "Each process is designed for that family and that company, not for a catalogue."
+      },
+      {
+        "title": "Seriousness",
+        "text": "Written agreements, realistic timelines, and a direct relationship with those who decide."
+      }
+    ]
+  },
+  "team": {
+    "kicker": "About",
+    "number": "04",
+    "title": "Team",
+    "lead": "A small core of partners and advisers, experienced in governance, business families, and boards.",
+    "note": "Final profiles will be published with each member’s authorization.",
+    "members": [
+      {
+        "initials": "M",
+        "name": "Member to be announced",
+        "role": "Managing partner — Family Governance",
+        "bio": "Advising business families on protocols, succession, and family governing bodies."
+      },
+      {
+        "initials": "M",
+        "name": "Member to be announced",
+        "role": "Managing partner — Corporate Governance",
+        "bio": "Design and strengthening of boards, controls, and institutional decision-making."
+      },
+      {
+        "initials": "M",
+        "name": "Member to be announced",
+        "role": "Senior adviser",
+        "bio": "Support on mandates that require judgment, discretion, and continuity over time."
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Contact",
+    "number": "05",
+    "title": "Let us speak in confidence",
+    "lead": "Tell us, in general terms, the reason for your enquiry. We will reply directly and in confidence.",
+    "note": "Conversations with Cepa Sur are treated as confidential. We do not share information with third parties.",
+    "submit": "Send enquiry",
+    "sending": "Sending…",
+    "success": "We have received your enquiry. We will reply shortly, in confidence.",
+    "error": "The message could not be sent. Please try again later.",
+    "required": "Required field",
+    "invalidEmail": "Please enter a valid email address",
+    "confidentialRequired": "You must accept confidential treatment in order to send the enquiry",
+    "fields": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "role": "Position",
+      "company": "Company or organization",
+      "email": "Corporate email",
+      "phone": "Phone",
+      "phoneOptional": "optional",
+      "topic": "Reason for enquiry",
+      "message": "Message",
+      "confidential": "I understand that this enquiry will be treated as confidential."
+    },
+    "topics": {
+      "placeholder": "Select a reason",
+      "family": "Family Governance",
+      "corporate": "Corporate Governance",
+      "preliminary": "Preliminary conversation"
+    }
+  },
+  "footer": {
+    "tagline": "Family and corporate governance",
+    "confidentiality": "Every enquiry is treated in confidence.",
+    "rights": "All rights reserved."
+  }
+}

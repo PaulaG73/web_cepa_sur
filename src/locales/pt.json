@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "Cepa Sur — Governança familiar e corporativa"
+  },
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "familyGov": "Governança Familiar",
+    "corpGov": "Governança Corporativa",
+    "about": "Sobre nós",
+    "company": "Empresa",
+    "team": "Equipe",
+    "contact": "Contato",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  },
+  "hero": {
+    "kicker": "Consultoria boutique",
+    "title": "Cepa Sur",
+    "lead": "Governança familiar e corporativa para quem cuida do legado, organiza as decisões e resguarda o que é essencial.",
+    "cta": "Solicitar uma conversa",
+    "aside": "Confidencialidade absoluta"
+  },
+  "familyGov": {
+    "kicker": "Serviços",
+    "number": "01",
+    "title": "Governança Familiar",
+    "lead": "O patrimônio e a empresa atravessam gerações quando as regras da família são escritas com clareza, discutidas com respeito e sustentadas no tempo.",
+    "body": "Acompanhamos famílias empresárias que precisam de um marco para conviver com a empresa sem confundir afetos e interesses. O processo é reservado, sob medida e orientado a acordos que possam ser cumpridos.",
+    "points": [
+      {
+        "title": "Protocolo familiar",
+        "text": "Acordos sobre propriedade, ingresso de familiares, dividendos e resolução de conflitos."
+      },
+      {
+        "title": "Sucessão",
+        "text": "Preparação da próxima geração e da transferência de papéis com prazos e critérios explícitos."
+      },
+      {
+        "title": "Família e patrimônio",
+        "text": "Órgãos de governança familiar que dialogam com o conselho e protegem o propósito compartilhado."
+      }
+    ]
+  },
+  "corpGov": {
+    "kicker": "Serviços",
+    "number": "02",
+    "title": "Governança Corporativa",
+    "lead": "Um conselho que funciona, controles que se compreendem e decisões que se documentam distinguem uma empresa que dura de uma que depende de uma só pessoa.",
+    "body": "Assessoramos sociedades, grupos familiares e conselhos que buscam institucionalizar a tomada de decisões sem perder agilidade nem o caráter da organização.",
+    "points": [
+      {
+        "title": "Conselhos",
+        "text": "Composição, funcionamento, avaliação e relação com a gestão e os acionistas."
+      },
+      {
+        "title": "Controles e transparência",
+        "text": "Políticas, informação para a governança e práticas que sustentam a confiança interna."
+      },
+      {
+        "title": "Continuidade institucional",
+        "text": "Estruturas que permitem crescer, associar-se ou suceder sem improvisar a governança."
+      }
+    ]
+  },
+  "company": {
+    "kicker": "Sobre nós",
+    "number": "03",
+    "title": "A empresa",
+    "lead": "Cepa Sur é uma consultoria boutique de governança familiar e corporativa.",
+    "body": "Operamos com equipes reduzidas, mandato claro e absoluta reserva. Não somos uma firma massiva: escolhemos poucos mandatos para acompanhá-los com profundidade. Nosso trabalho ocorre fora do palco público — em conselhos, órgãos de família e conversas que exigem discrição.",
+    "values": [
+      {
+        "title": "Reserva",
+        "text": "Nada do que nos é confiado circula fora do mandato."
+      },
+      {
+        "title": "Medida",
+        "text": "Cada processo é desenhado para aquela família e aquela empresa, não para um catálogo."
+      },
+      {
+        "title": "Seriedade",
+        "text": "Acordos escritos, prazos realistas e um trato direto com quem decide."
+      }
+    ]
+  },
+  "team": {
+    "kicker": "Sobre nós",
+    "number": "04",
+    "title": "Equipe",
+    "lead": "Um núcleo reduzido de sócios e assessores, com experiência em governança, família empresária e conselhos.",
+    "note": "Os perfis definitivos serão publicados com autorização de cada integrante.",
+    "members": [
+      {
+        "initials": "I",
+        "name": "Integrante a definir",
+        "role": "Sócio diretor — Governança Familiar",
+        "bio": "Acompanhamento a famílias empresárias em protocolos, sucessão e órgãos de família."
+      },
+      {
+        "initials": "I",
+        "name": "Integrante a definir",
+        "role": "Sócio diretor — Governança Corporativa",
+        "bio": "Desenho e fortalecimento de conselhos, controles e tomada de decisão institucional."
+      },
+      {
+        "initials": "I",
+        "name": "Integrante a definir",
+        "role": "Assessor sênior",
+        "bio": "Apoio em mandatos que exigem critério, reserva e continuidade no tempo."
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Contato",
+    "number": "05",
+    "title": "Conversemos com reserva",
+    "lead": "Conte-nos, em termos gerais, o motivo da consulta. Responderemos de forma direta e confidencial.",
+    "note": "As conversas com a Cepa Sur são tratadas de forma reservada. Não compartilhamos informação com terceiros.",
+    "submit": "Enviar consulta",
+    "sending": "Enviando…",
+    "success": "Recebemos a sua consulta. Responderemos em breve, com reserva.",
+    "error": "Não foi possível enviar a mensagem. Tente novamente mais tarde.",
+    "required": "Campo obrigatório",
+    "invalidEmail": "Informe um e-mail válido",
+    "confidentialRequired": "É necessário aceitar o tratamento confidencial para enviar a consulta",
+    "fields": {
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "role": "Cargo",
+      "company": "Empresa ou organização",
+      "email": "E-mail corporativo",
+      "phone": "Telefone",
+      "phoneOptional": "opcional",
+      "topic": "Motivo da consulta",
+      "message": "Mensagem",
+      "confidential": "Entendo que esta consulta será tratada de forma confidencial."
+    },
+    "topics": {
+      "placeholder": "Selecione um motivo",
+      "family": "Governança Familiar",
+      "corporate": "Governança Corporativa",
+      "preliminary": "Conversa preliminar"
+    }
+  },
+  "footer": {
+    "tagline": "Governança familiar e corporativa",
+    "confidentiality": "Toda consulta é tratada com reserva.",
+    "rights": "Todos os direitos reservados."
+  }
+}
