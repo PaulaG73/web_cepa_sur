@@ -15,18 +15,25 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "kicker": "Boutique advisory",
+    "kicker": "Tailored advisory",
+    "concepts": [
+      "Systemic view",
+      "Humanistic vision",
+      "Transformation"
+    ],
     "title": "Cepa Sur",
     "lead": "Family and corporate governance for those who protect a legacy, bring order to decisions, and safeguard what matters most.",
-    "cta": "Request a conversation",
+    "support": "We accompany business families with a systemic view of their governance so they can reach their full potential, supporting their creation of value.",
+    "cta": "Let's talk",
     "aside": "Absolute confidentiality"
   },
   "familyGov": {
     "kicker": "Services",
     "number": "01",
     "title": "Family Governance",
-    "lead": "Wealth and the enterprise endure across generations when family rules are written with clarity, discussed with respect, and upheld over time.",
-    "body": "We work with business families that need a framework for living with the company without confusing affection and interest. The process is private, tailored, and oriented toward agreements that can actually be kept.",
+    "statement": "We propose a tailored design and accompany the implementation of the governance system, seeking the right balance between family and company. We care for succession and for relationships in generational transfers, so that wealth and the enterprise endure: with clear rules, discussed with respect and upheld over time.",
+    "more": "Read more",
+    "less": "Show less",
     "points": [
       {
         "title": "Family protocol",
@@ -46,8 +53,9 @@
     "kicker": "Services",
     "number": "02",
     "title": "Corporate Governance",
-    "lead": "A board that works, controls that are understood, and decisions that are recorded distinguish a lasting company from one that depends on a single person.",
-    "body": "We advise companies, family groups, and boards seeking to institutionalize decision-making without losing agility or the character of the organization.",
+    "statement": "We make the corporate purpose explicit and propose governance systems based on sound management practice and on what is distinctive to each organization. We align corporate strategy, transformation processes and the resolution of conflict at the different levels of governance, so that the board works, decisions are recorded, and the company endures without depending on a single person.",
+    "more": "Read more",
+    "less": "Show less",
     "points": [
       {
         "title": "Boards",
@@ -67,7 +75,8 @@
     "kicker": "About",
     "number": "03",
     "title": "The firm",
-    "lead": "Cepa Sur is a boutique advisory firm in family and corporate governance.",
+    "statement": "We are a multidisciplinary team that combines engineering with the humanities. We bring passion, rigour and creativity through a systemic approach that allows us to facilitate agreements at different levels and to support the formation and working of the family council, the board and senior management.",
+    "lead": "Cepa Sur is an independent advisory firm in family and corporate governance.",
     "body": "We operate with small teams, a clear mandate, and complete discretion. We are not a mass-market firm: we accept few engagements in order to accompany them in depth. Our work takes place off the public stage — in boardrooms, family councils, and conversations that require reserve.",
     "values": [
       {

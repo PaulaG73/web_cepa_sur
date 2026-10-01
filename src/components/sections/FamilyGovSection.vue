@@ -7,9 +7,17 @@
         <h2 class="section-title">{{ t('familyGov.title') }}</h2>
       </div>
       <div>
-        <p class="lead">{{ t('familyGov.lead') }}</p>
-        <p>{{ t('familyGov.body') }}</p>
-        <ul class="point-list">
+        <p class="lead">{{ t('familyGov.statement') }}</p>
+        <button
+          class="more-toggle"
+          type="button"
+          :aria-expanded="detailsOpen"
+          aria-controls="family-gov-details"
+          @click="detailsOpen = !detailsOpen"
+        >
+          {{ detailsOpen ? t('familyGov.less') : t('familyGov.more') }}
+        </button>
+        <ul v-show="detailsOpen" id="family-gov-details" class="point-list">
           <li v-for="point in copy.familyGov.points" :key="point.title">
             <h3>{{ point.title }}</h3>
             <p>{{ point.text }}</p>
@@ -25,6 +33,11 @@ import i18n from '@/mixins/i18n'
 
 export default {
   name: 'FamilyGovSection',
-  mixins: [i18n]
+  mixins: [i18n],
+  data () {
+    return {
+      detailsOpen: false
+    }
+  }
 }
 </script>

@@ -5,7 +5,14 @@
         <span class="kicker">{{ t('hero.kicker') }}</span>
         <div class="hero-line"></div>
         <h1>{{ t('hero.title') }}</h1>
+        <p class="hero-concepts">
+          <span v-for="(concept, index) in copy.hero.concepts" :key="concept">
+            <span v-if="index > 0" class="hero-concepts-sep" aria-hidden="true">·</span>
+            {{ concept }}
+          </span>
+        </p>
         <p class="hero-lead">{{ t('hero.lead') }}</p>
+        <p class="hero-support">{{ t('hero.support') }}</p>
         <a class="btn" :href="contactHref" @click.prevent="goContact">{{ t('hero.cta') }}</a>
       </div>
       <p class="hero-aside">{{ t('hero.aside') }}</p>

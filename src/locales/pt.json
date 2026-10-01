@@ -15,18 +15,25 @@
     "closeMenu": "Fechar menu"
   },
   "hero": {
-    "kicker": "Consultoria boutique",
+    "kicker": "Acompanhamento sob medida",
+    "concepts": [
+      "Olhar sistêmico",
+      "Visão humanista",
+      "Transformação"
+    ],
     "title": "Cepa Sur",
     "lead": "Governança familiar e corporativa para quem cuida do legado, organiza as decisões e resguarda o que é essencial.",
-    "cta": "Solicitar uma conversa",
+    "support": "Acompanhamos famílias empresárias com um olhar sistêmico de sua governança para que possam alcançar seu máximo potencial, apoiando sua criação de valor.",
+    "cta": "Conversemos",
     "aside": "Confidencialidade absoluta"
   },
   "familyGov": {
     "kicker": "Serviços",
     "number": "01",
     "title": "Governança Familiar",
-    "lead": "O patrimônio e a empresa atravessam gerações quando as regras da família são escritas com clareza, discutidas com respeito e sustentadas no tempo.",
-    "body": "Acompanhamos famílias empresárias que precisam de um marco para conviver com a empresa sem confundir afetos e interesses. O processo é reservado, sob medida e orientado a acordos que possam ser cumpridos.",
+    "statement": "Propomos um desenho sob medida e acompanhamos a implementação do sistema de governança, buscando o equilíbrio entre a família e a empresa. Cuidamos da sucessão e das relações nas transferências geracionais, para que o patrimônio e a empresa durem: com regras claras, discutidas com respeito e sustentadas no tempo.",
+    "more": "Ver mais",
+    "less": "Ver menos",
     "points": [
       {
         "title": "Protocolo familiar",
@@ -46,8 +53,9 @@
     "kicker": "Serviços",
     "number": "02",
     "title": "Governança Corporativa",
-    "lead": "Um conselho que funciona, controles que se compreendem e decisões que se documentam distinguem uma empresa que dura de uma que depende de uma só pessoa.",
-    "body": "Assessoramos sociedades, grupos familiares e conselhos que buscam institucionalizar a tomada de decisões sem perder agilidade nem o caráter da organização.",
+    "statement": "Explicitamos o propósito empresarial e propomos sistemas de governança baseados em boas práticas de direção e na tipicidade de cada organização. Alinhamos estratégias corporativas, processos de transformação e a resolução de conflitos nos distintos níveis da governança, para que o conselho funcione, as decisões se documentem e a empresa dure sem depender de uma só pessoa.",
+    "more": "Ver mais",
+    "less": "Ver menos",
     "points": [
       {
         "title": "Conselhos",
@@ -67,7 +75,8 @@
     "kicker": "Sobre nós",
     "number": "03",
     "title": "A empresa",
-    "lead": "Cepa Sur é uma consultoria boutique de governança familiar e corporativa.",
+    "statement": "Somos uma equipe multidisciplinar que combina a engenharia com as humanidades. Aportamos paixão, rigor e criatividade por meio de um enfoque sistêmico que nos permite facilitar acordos nos distintos níveis e apoiar a formação e o funcionamento do Conselho de Família, do conselho e da alta administração.",
+    "lead": "Cepa Sur é uma consultoria independente de governança familiar e corporativa.",
     "body": "Operamos com equipes reduzidas, mandato claro e absoluta reserva. Não somos uma firma massiva: escolhemos poucos mandatos para acompanhá-los com profundidade. Nosso trabalho ocorre fora do palco público — em conselhos, órgãos de família e conversas que exigem discrição.",
     "values": [
       {

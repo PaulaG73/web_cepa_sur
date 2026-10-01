@@ -15,18 +15,25 @@
     "closeMenu": "Cerrar menú"
   },
   "hero": {
-    "kicker": "Consultora boutique",
+    "kicker": "Acompañamiento a medida",
+    "concepts": [
+      "Mirada Sistémica",
+      "Visión humanista",
+      "Transformación"
+    ],
     "title": "Cepa Sur",
     "lead": "Gobierno familiar y corporativo para quienes cuidan el legado, ordenan las decisiones y resguardan lo esencial.",
-    "cta": "Solicitar una conversación",
+    "support": "Acompañamos a familias empresarias con una mirada sistémica de su gobierno para que puedan alcanzar su máximo potencial, apoyando su creación de valor.",
+    "cta": "Conversemos",
     "aside": "Confidencialidad absoluta"
   },
   "familyGov": {
     "kicker": "Servicios",
     "number": "01",
     "title": "Gobierno Familiar",
-    "lead": "El patrimonio y la empresa atraviesan generaciones cuando las reglas de la familia se escriben con claridad, se discuten con respeto y se sostienen en el tiempo.",
-    "body": "Acompañamos a familias empresarias que necesitan un marco para convivir con la empresa sin que los afectos y los intereses se confundan. El proceso es reservado, a la medida y orientado a acuerdos que se puedan cumplir.",
+    "statement": "Proponemos un diseño a la medida y acompañamos la puesta en marcha del sistema de gobierno, buscando el equilibrio entre la familia y la empresa. Cuidamos la sucesión y las relaciones en los traspasos generacionales, para que el patrimonio y la empresa perduren: con reglas claras, discutidas con respeto y sostenidas en el tiempo.",
+    "more": "Ver más",
+    "less": "Ver menos",
     "points": [
       {
         "title": "Protocolo familiar",
@@ -46,8 +53,9 @@
     "kicker": "Servicios",
     "number": "02",
     "title": "Gobierno Corporativo",
-    "lead": "Un directorio que funciona, controles que se entienden y decisiones que se documentan marcan la diferencia entre una empresa que dura y una que depende de una sola persona.",
-    "body": "Asesoramos a sociedades, grupos familiares y directorios que buscan institucionalizar la toma de decisiones sin perder agilidad ni el carácter de la organización.",
+    "statement": "Explicitamos el propósito empresarial y proponemos sistemas de gobierno basados en buenas prácticas de dirección y en la tipicidad de cada organización. Alineamos estrategias corporativas, procesos de transformación y la resolución de conflictos en los distintos niveles del gobierno, para que el directorio funcione, las decisiones se documenten y la empresa perdure sin depender de una sola persona.",
+    "more": "Ver más",
+    "less": "Ver menos",
     "points": [
       {
         "title": "Directorios",
@@ -67,7 +75,8 @@
     "kicker": "Nosotros",
     "number": "03",
     "title": "La empresa",
-    "lead": "Cepa Sur es una consultora boutique de gobierno familiar y corporativo.",
+    "statement": "Somos un equipo multidisciplinario que combina la ingeniería con las humanidades, aportamos pasión, rigor y creatividad a través de un enfoque sistémico que nos permite facilitar acuerdos en los distintos niveles, apoyar la conformación y funcionamiento del Consejo de Familia, directorio y alta administración.",
+    "lead": "Cepa Sur es una consultora independiente de gobierno familiar y corporativo.",
     "body": "Operamos con equipos reducidos, mandato claro y absoluta reserva. No somos una firma masiva: elegimos pocos encargos para acompañarlos con profundidad. Nuestro trabajo ocurre fuera del escenario público — en directorios, consejos de familia y conversaciones que requieren discreción.",
     "values": [
       {

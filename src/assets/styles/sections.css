@@ -26,10 +26,35 @@
   margin: 0.2rem 0 1.4rem;
 }
 
+.hero-concepts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.15rem;
+  margin: 0 0 1.5rem;
+  font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: var(--color-bronze-soft);
+}
+
+.hero-concepts-sep {
+  margin: 0 0.65rem;
+  opacity: 0.7;
+}
+
 .hero-lead {
-  max-width: 32rem;
+  max-width: 36rem;
   font-size: 1.12rem;
   color: rgba(244, 239, 230, 0.82);
+  margin-bottom: 0.85rem;
+}
+
+.hero-support {
+  max-width: 36rem;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: rgba(244, 239, 230, 0.72);
   margin-bottom: 2rem;
 }
 
@@ -106,6 +131,35 @@
 .point-list h3 {
   font-size: 1.45rem;
   margin-bottom: 0.4rem;
+}
+
+.more-toggle {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1.35rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--color-bronze);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.more-toggle:hover,
+.more-toggle:focus-visible {
+  color: var(--color-ink);
+}
+
+.split-section.is-inverted .more-toggle {
+  color: var(--color-bronze-soft);
+}
+
+.split-section.is-inverted .more-toggle:hover,
+.split-section.is-inverted .more-toggle:focus-visible {
+  color: var(--color-on-dark);
 }
 
 .company-head {
