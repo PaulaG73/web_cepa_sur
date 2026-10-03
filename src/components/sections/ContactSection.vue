@@ -64,9 +64,11 @@
         </div>
 
         <div class="field full">
-          <label for="message">{{ t('contact.fields.message') }}</label>
+          <label for="message">
+            {{ t('contact.fields.message') }}
+            <span class="optional">({{ t('contact.fields.phoneOptional') }})</span>
+          </label>
           <textarea id="message" v-model.trim="form.message"></textarea>
-          <span v-if="errors.message" class="field-error">{{ errors.message }}</span>
         </div>
 
         <div class="field full">
@@ -121,7 +123,7 @@ export default {
   methods: {
     validate () {
       const errors = {}
-      const required = ['firstName', 'lastName', 'role', 'company', 'email', 'topic', 'message']
+      const required = ['firstName', 'lastName', 'role', 'company', 'email', 'topic']
       required.forEach((field) => {
         if (!this.form[field]) errors[field] = this.t('contact.required')
       })
@@ -166,7 +168,7 @@ export default {
             Email: this.form.email,
             Telefono: this.form.phone || '—',
             Motivo: this.topicLabel(),
-            Mensaje: this.form.message,
+            Mensaje: this.form.message || '—',
             Idioma: this.locale
           })
         })

@@ -104,19 +104,19 @@
       {
         "name": "Nombre integrante",
         "role": "Rol",
-        "bio": "breve descripción",
+        "bio": "Breve descripción",
         "linkedin": ""
       },
       {
         "name": "Nombre integrante",
         "role": "Rol",
-        "bio": "breve descripción",
+        "bio": "Breve descripción",
         "linkedin": ""
       },
       {
         "name": "Nombre integrante",
         "role": "Rol",
-        "bio": "breve descripción",
+        "bio": "Breve descripción",
         "linkedin": ""
       }
     ]
@@ -125,7 +125,7 @@
     "kicker": "Contacto",
     "number": "3",
     "title": "Conversemos",
-    "lead": "Cuéntenos, en términos generales, el motivo de la consulta. Responderemos de forma directa y confidencial.",
+    "lead": "Cuéntanos, en términos generales, el motivo de la consulta. Responderemos de forma directa y confidencial.",
     "note": "Las conversaciones con Cepa Sur se tratan de forma reservada. No compartimos información con terceros.",
     "submit": "Enviar consulta",
     "sending": "Enviando…",
