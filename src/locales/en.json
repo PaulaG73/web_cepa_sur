@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Cepa Sur — Family and corporate governance"
+    "title": "Systemic view, Humanistic vision, Transformation — Cepa Sur"
   },
   "nav": {
     "home": "Home",
@@ -21,7 +21,6 @@
       "Humanistic vision",
       "Transformation"
     ],
-    "title": "Cepa Sur",
     "lead": "Family and corporate governance for those who protect a legacy, bring order to decisions, and safeguard what matters most.",
     "support": "We accompany business families with a systemic view of their governance so they can reach their full potential, supporting their creation of value.",
     "cta": "Let's talk",
@@ -29,7 +28,7 @@
   },
   "familyGov": {
     "kicker": "Services",
-    "number": "01",
+    "number": "1.1",
     "title": "Family Governance",
     "statement": "We propose a tailored design and accompany the implementation of the governance system, seeking the right balance between family and company. We care for succession and for relationships in generational transfers, so that wealth and the enterprise endure: with clear rules, discussed with respect and upheld over time.",
     "more": "Read more",
@@ -51,7 +50,7 @@
   },
   "corpGov": {
     "kicker": "Services",
-    "number": "02",
+    "number": "1.2",
     "title": "Corporate Governance",
     "statement": "We make the corporate purpose explicit and propose governance systems based on sound management practice and on what is distinctive to each organization. We align corporate strategy, transformation processes and the resolution of conflict at the different levels of governance, so that the board works, decisions are recorded, and the company endures without depending on a single person.",
     "more": "Read more",
@@ -73,10 +72,11 @@
   },
   "company": {
     "kicker": "About",
-    "number": "03",
-    "title": "The firm",
+    "number": "2.1",
+    "title": "The Firm",
+    "more": "Read more",
+    "less": "Read less",
     "statement": "We are a multidisciplinary team that combines engineering with the humanities. We bring passion, rigour and creativity through a systemic approach that allows us to facilitate agreements at different levels and to support the formation and working of the family council, the board and senior management.",
-    "lead": "Cepa Sur is an independent advisory firm in family and corporate governance.",
     "body": "We operate with small teams, a clear mandate, and complete discretion. We are not a mass-market firm: we accept few engagements in order to accompany them in depth. Our work takes place off the public stage — in boardrooms, family councils, and conversations that require reserve.",
     "values": [
       {
@@ -95,35 +95,36 @@
   },
   "team": {
     "kicker": "About",
-    "number": "04",
+    "number": "2.2",
     "title": "Team",
     "lead": "A small core of partners and advisers, experienced in governance, business families, and boards.",
     "note": "Final profiles will be published with each member’s authorization.",
+    "linkedin": "LinkedIn",
     "members": [
       {
-        "initials": "M",
-        "name": "Member to be announced",
-        "role": "Managing partner — Family Governance",
-        "bio": "Advising business families on protocols, succession, and family governing bodies."
+        "name": "Member name",
+        "role": "Role",
+        "bio": "brief description",
+        "linkedin": ""
       },
       {
-        "initials": "M",
-        "name": "Member to be announced",
-        "role": "Managing partner — Corporate Governance",
-        "bio": "Design and strengthening of boards, controls, and institutional decision-making."
+        "name": "Member name",
+        "role": "Role",
+        "bio": "brief description",
+        "linkedin": ""
       },
       {
-        "initials": "M",
-        "name": "Member to be announced",
-        "role": "Senior adviser",
-        "bio": "Support on mandates that require judgment, discretion, and continuity over time."
+        "name": "Member name",
+        "role": "Role",
+        "bio": "brief description",
+        "linkedin": ""
       }
     ]
   },
   "contact": {
     "kicker": "Contact",
-    "number": "05",
-    "title": "Let us speak in confidence",
+    "number": "3",
+    "title": "Let's talk",
     "lead": "Tell us, in general terms, the reason for your enquiry. We will reply directly and in confidence.",
     "note": "Conversations with Cepa Sur are treated as confidential. We do not share information with third parties.",
     "submit": "Send enquiry",
@@ -153,8 +154,8 @@
     }
   },
   "footer": {
-    "tagline": "Family and corporate governance",
-    "confidentiality": "Every enquiry is treated in confidence.",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "linkedinUrl": "https://www.linkedin.com/company/cepa-sur",
+    "linkedinLabel": "linkedin.com/company/cepa-sur"
   }
 }

@@ -1,17 +1,11 @@
 <template>
-  <header :class="['site-header', { 'is-solid': isSolid, 'is-open': menuOpen }]">
+  <header :class="['site-header', { 'is-solid': isSolid }]">
     <div class="header-inner">
-      <a class="brand" :href="homeHref" @click.prevent="goTo('inicio')">Cepa Sur</a>
-
-      <button
-        class="nav-toggle"
-        type="button"
-        :aria-expanded="menuOpen"
-        :aria-label="menuOpen ? t('nav.closeMenu') : t('nav.openMenu')"
-        @click="menuOpen = !menuOpen"
-      >
-        <span></span>
-      </button>
+      <a class="brand" :href="homeHref" @click.prevent="goTo('inicio')">
+        <span class="brand-word">Cepa</span>
+        <img class="brand-mark" src="/img/logo-mark.png" alt="">
+        <span class="brand-word">Sur</span>
+      </a>
 
       <div class="site-nav">
         <ul class="nav-list">
@@ -52,8 +46,8 @@
             </a>
           </li>
         </ul>
-        <LangSwitch />
       </div>
+      <LangSwitch />
     </div>
   </header>
 </template>
@@ -69,7 +63,6 @@ export default {
   data () {
     return {
       isSolid: false,
-      menuOpen: false,
       openDrop: null
     }
   },
@@ -81,18 +74,18 @@ export default {
       return `${this.localePath}#inicio`
     }
   },
-  watch: {
-    menuOpen (open) {
-      document.body.style.overflow = open ? 'hidden' : ''
-    }
-  },
   mounted () {
     this.onScroll()
+    this.syncHeaderMetrics()
     window.addEventListener('scroll', this.onScroll, { passive: true })
+    document.addEventListener('click', this.onDocumentClick)
+    this.resizeObserver = new ResizeObserver(() => this.syncHeaderMetrics())
+    this.resizeObserver.observe(this.$el)
   },
   beforeUnmount () {
     window.removeEventListener('scroll', this.onScroll)
-    document.body.style.overflow = ''
+    document.removeEventListener('click', this.onDocumentClick)
+    if (this.resizeObserver) this.resizeObserver.disconnect()
   },
   methods: {
     sectionHref (id) {
@@ -101,13 +94,24 @@ export default {
     onScroll () {
       this.isSolid = window.scrollY > 24
     },
+    syncHeaderMetrics () {
+      const height = Math.ceil(this.$el.getBoundingClientRect().height)
+      document.documentElement.style.setProperty('--nav-height', `${height}px`)
+      document.documentElement.style.setProperty('--header-offset', `${height + 10}px`)
+    },
+    onDocumentClick (event) {
+      if (!this.$el.contains(event.target)) {
+        this.openDrop = null
+      }
+    },
     toggleDrop (name) {
       this.openDrop = this.openDrop === name ? null : name
     },
     goTo (id) {
-      this.menuOpen = false
       this.openDrop = null
-      document.body.style.overflow = ''
+      if (document.activeElement && this.$el.contains(document.activeElement)) {
+        document.activeElement.blur()
+      }
       this.$router.push({ path: this.localePath, hash: `#${id}` })
     }
   }

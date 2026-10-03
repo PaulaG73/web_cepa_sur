@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Cepa Sur — Gobierno familiar y corporativo"
+    "title": "Mirada Sistémica, Visión humanista, Transformación — Cepa Sur"
   },
   "nav": {
     "home": "Inicio",
@@ -21,7 +21,6 @@
       "Visión humanista",
       "Transformación"
     ],
-    "title": "Cepa Sur",
     "lead": "Gobierno familiar y corporativo para quienes cuidan el legado, ordenan las decisiones y resguardan lo esencial.",
     "support": "Acompañamos a familias empresarias con una mirada sistémica de su gobierno para que puedan alcanzar su máximo potencial, apoyando su creación de valor.",
     "cta": "Conversemos",
@@ -29,7 +28,7 @@
   },
   "familyGov": {
     "kicker": "Servicios",
-    "number": "01",
+    "number": "1.1",
     "title": "Gobierno Familiar",
     "statement": "Proponemos un diseño a la medida y acompañamos la puesta en marcha del sistema de gobierno, buscando el equilibrio entre la familia y la empresa. Cuidamos la sucesión y las relaciones en los traspasos generacionales, para que el patrimonio y la empresa perduren: con reglas claras, discutidas con respeto y sostenidas en el tiempo.",
     "more": "Ver más",
@@ -51,7 +50,7 @@
   },
   "corpGov": {
     "kicker": "Servicios",
-    "number": "02",
+    "number": "1.2",
     "title": "Gobierno Corporativo",
     "statement": "Explicitamos el propósito empresarial y proponemos sistemas de gobierno basados en buenas prácticas de dirección y en la tipicidad de cada organización. Alineamos estrategias corporativas, procesos de transformación y la resolución de conflictos en los distintos niveles del gobierno, para que el directorio funcione, las decisiones se documenten y la empresa perdure sin depender de una sola persona.",
     "more": "Ver más",
@@ -73,10 +72,11 @@
   },
   "company": {
     "kicker": "Nosotros",
-    "number": "03",
-    "title": "La empresa",
+    "number": "2.1",
+    "title": "La Empresa",
+    "more": "Ver más",
+    "less": "Ver menos",
     "statement": "Somos un equipo multidisciplinario que combina la ingeniería con las humanidades, aportamos pasión, rigor y creatividad a través de un enfoque sistémico que nos permite facilitar acuerdos en los distintos niveles, apoyar la conformación y funcionamiento del Consejo de Familia, directorio y alta administración.",
-    "lead": "Cepa Sur es una consultora independiente de gobierno familiar y corporativo.",
     "body": "Operamos con equipos reducidos, mandato claro y absoluta reserva. No somos una firma masiva: elegimos pocos encargos para acompañarlos con profundidad. Nuestro trabajo ocurre fuera del escenario público — en directorios, consejos de familia y conversaciones que requieren discreción.",
     "values": [
       {
@@ -95,35 +95,36 @@
   },
   "team": {
     "kicker": "Nosotros",
-    "number": "04",
+    "number": "2.2",
     "title": "Equipo",
     "lead": "Un núcleo reducido de socios y asesores, con experiencia en gobierno, familia empresaria y directorios.",
     "note": "Los perfiles definitivos se publicarán con autorización de cada integrante.",
+    "linkedin": "LinkedIn",
     "members": [
       {
-        "initials": "I",
-        "name": "Integrante a definir",
-        "role": "Socio director — Gobierno Familiar",
-        "bio": "Acompañamiento a familias empresarias en protocolos, sucesión y órganos de familia."
+        "name": "Nombre integrante",
+        "role": "Rol",
+        "bio": "breve descripción",
+        "linkedin": ""
       },
       {
-        "initials": "I",
-        "name": "Integrante a definir",
-        "role": "Socio director — Gobierno Corporativo",
-        "bio": "Diseño y fortalecimiento de directorios, controles y toma de decisiones institucional."
+        "name": "Nombre integrante",
+        "role": "Rol",
+        "bio": "breve descripción",
+        "linkedin": ""
       },
       {
-        "initials": "I",
-        "name": "Integrante a definir",
-        "role": "Asesor senior",
-        "bio": "Apoyo en mandatos que requieren criterio, reserva y continuidad en el tiempo."
+        "name": "Nombre integrante",
+        "role": "Rol",
+        "bio": "breve descripción",
+        "linkedin": ""
       }
     ]
   },
   "contact": {
     "kicker": "Contacto",
-    "number": "05",
-    "title": "Conversemos con reserva",
+    "number": "3",
+    "title": "Conversemos",
     "lead": "Cuéntenos, en términos generales, el motivo de la consulta. Responderemos de forma directa y confidencial.",
     "note": "Las conversaciones con Cepa Sur se tratan de forma reservada. No compartimos información con terceros.",
     "submit": "Enviar consulta",
@@ -153,8 +154,8 @@
     }
   },
   "footer": {
-    "tagline": "Gobierno familiar y corporativo",
-    "confidentiality": "Toda consulta se trata con reserva.",
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "linkedinUrl": "https://www.linkedin.com/company/cepa-sur",
+    "linkedinLabel": "linkedin.com/company/cepa-sur"
   }
 }

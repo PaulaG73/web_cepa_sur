@@ -1,14 +1,18 @@
 <template>
   <footer class="site-footer">
     <div class="footer-inner">
-      <div>
+      <div class="footer-brand-block">
         <div class="footer-brand">Cepa Sur</div>
-        <p class="footer-meta">{{ t('footer.tagline') }}</p>
+        <a
+          class="footer-linkedin"
+          :href="t('footer.linkedinUrl')"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ t('footer.linkedinLabel') }}
+        </a>
       </div>
-      <div class="footer-meta">
-        <p>{{ t('footer.confidentiality') }}</p>
-        <p>© {{ year }} Cepa Sur. {{ t('footer.rights') }}</p>
-      </div>
+      <p class="footer-meta">© {{ year }} Cepa Sur. {{ t('footer.rights') }}</p>
     </div>
   </footer>
 </template>

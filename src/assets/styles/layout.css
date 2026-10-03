@@ -2,17 +2,18 @@
   position: fixed;
   inset: 0 0 auto;
   z-index: 40;
-  height: var(--nav-height);
+  min-height: 4.5rem;
+  height: auto;
   display: flex;
   align-items: center;
-  transition: background 0.25s ease, box-shadow 0.25s ease, color 0.25s ease;
-  color: var(--color-on-dark);
+  background: #fff;
+  color: var(--color-depth);
+  padding: 0.7rem 0;
+  transition: box-shadow 0.25s ease;
 }
 
-.site-header.is-solid,
-.site-header.is-open {
-  background: rgba(31, 42, 36, 0.96);
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
+.site-header.is-solid {
+  box-shadow: 0 1px 0 var(--color-line);
 }
 
 .site-header .header-inner {
@@ -21,62 +22,51 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  gap: 0.45rem 1.25rem;
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  color: var(--color-ink);
+  line-height: 1;
+}
+
+.brand-word {
   font-family: var(--font-display);
-  font-size: 1.45rem;
-  letter-spacing: 0.18em;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  line-height: 1;
   text-transform: uppercase;
-  white-space: nowrap;
 }
 
-.nav-toggle {
-  display: none;
-  width: 2.5rem;
-  height: 2.5rem;
-  border: 0;
-  background: transparent;
-  padding: 0;
-  cursor: pointer;
-}
-
-.nav-toggle span,
-.nav-toggle span::before,
-.nav-toggle span::after {
+.brand-mark {
   display: block;
-  width: 1.35rem;
-  height: 1px;
-  background: currentColor;
+  height: 2.5rem;
+  width: auto;
+  margin: 0 -0.28rem 0 -0.95rem;
+  transform: translateY(-0.64em);
   position: relative;
-}
-
-.nav-toggle span::before,
-.nav-toggle span::after {
-  content: "";
-  position: absolute;
-  left: 0;
-}
-
-.nav-toggle span::before {
-  top: -7px;
-}
-
-.nav-toggle span::after {
-  top: 7px;
+  z-index: 1;
+  pointer-events: none;
 }
 
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 1.75rem;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  margin-left: auto;
 }
 
 .nav-list {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.5rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -98,7 +88,7 @@
 .nav-link:hover,
 .nav-drop > button:hover,
 .nav-link.is-active {
-  color: var(--color-bronze-soft);
+  color: var(--color-bronze);
 }
 
 .nav-drop {
@@ -183,11 +173,28 @@
   flex-wrap: wrap;
 }
 
+.footer-brand-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
 .footer-brand {
   font-family: var(--font-display);
   letter-spacing: 0.16em;
   text-transform: uppercase;
   font-size: 1.1rem;
+}
+
+.footer-linkedin {
+  font-size: 0.82rem;
+  color: rgba(244, 239, 230, 0.72);
+  text-decoration: none;
+}
+
+.footer-linkedin:hover,
+.footer-linkedin:focus-visible {
+  color: var(--color-on-dark);
 }
 
 .footer-meta {
@@ -196,56 +203,56 @@
 }
 
 @media (max-width: 900px) {
-  .nav-toggle {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  .brand-word {
+    font-size: 1.7rem;
+  }
+
+  .brand-mark {
+    height: 2.1rem;
+    margin: 0 -0.22rem 0 -0.78rem;
+    transform: translateY(-0.55em);
+  }
+
+  .site-header {
+    padding: 0.55rem 0 0.5rem;
+  }
+
+  .brand {
+    order: 1;
+  }
+
+  .lang-switch {
+    order: 2;
+    margin-left: auto;
   }
 
   .site-nav {
-    position: fixed;
-    inset: var(--nav-height) 0 0;
-    background: var(--color-depth);
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 2rem 1.5rem 3rem;
-    gap: 2rem;
-    transform: translateX(100%);
-    transition: transform 0.28s ease;
-  }
-
-  .site-header.is-open .site-nav {
-    transform: none;
+    order: 3;
+    flex: 1 1 100%;
+    margin-left: 0;
   }
 
   .nav-list {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.1rem;
     width: 100%;
+    justify-content: space-between;
+    gap: 0.15rem 0.7rem;
+  }
+
+  .nav-link,
+  .nav-drop > button {
+    letter-spacing: 0.12em;
+    font-size: 0.66rem;
   }
 
   .nav-drop-menu {
-    position: static;
-    transform: none;
-    opacity: 1;
-    visibility: visible;
-    background: transparent;
-    border: 0;
-    color: inherit;
-    padding: 0.4rem 0 0 0.2rem;
-    min-width: 0;
-    display: none;
+    left: 0;
+    transform: translateY(0.35rem);
   }
 
+  .nav-drop:hover .nav-drop-menu,
+  .nav-drop:focus-within .nav-drop-menu,
   .nav-drop.is-open .nav-drop-menu {
-    display: block;
-  }
-
-  .nav-drop-menu a {
-    padding: 0.4rem 0;
-    color: rgba(244, 239, 230, 0.82);
+    transform: translateY(0);
   }
 
   .footer-inner {

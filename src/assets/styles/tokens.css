@@ -16,7 +16,22 @@
   --space-md: 1.75rem;
   --space-lg: 3.5rem;
   --space-xl: 6.5rem;
-  --nav-height: 4.75rem;
+  --nav-height: 4.5rem;
   --max-width: 72rem;
-  --header-offset: 5.5rem;
+  --header-offset: 5rem;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --space-lg: 2.25rem;
+    --space-xl: 3.5rem;
+    --nav-height: 6.25rem;
+    --header-offset: 6.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --space-xl: 2.75rem;
+  }
 }
