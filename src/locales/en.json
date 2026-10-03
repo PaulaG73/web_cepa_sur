@@ -100,6 +100,8 @@
     "lead": "A small core of partners and advisers, experienced in governance, business families, and boards.",
     "note": "Final profiles will be published with each member’s authorization.",
     "linkedin": "LinkedIn",
+    "prev": "Previous member",
+    "next": "Next member",
     "members": [
       {
         "name": "Member name",

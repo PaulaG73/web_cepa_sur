@@ -100,6 +100,8 @@
     "lead": "Un núcleo reducido de socios y asesores, con experiencia en gobierno, familia empresaria y directorios.",
     "note": "Los perfiles definitivos se publicarán con autorización de cada integrante.",
     "linkedin": "LinkedIn",
+    "prev": "Integrante anterior",
+    "next": "Integrante siguiente",
     "members": [
       {
         "name": "Nombre integrante",

@@ -195,7 +195,7 @@
 }
 
 .member-frame {
-  width: 8.5rem;
+  width: 11.5rem;
   aspect-ratio: 3 / 4;
   display: flex;
   align-items: center;
@@ -244,6 +244,10 @@
 
 .team-note {
   margin-top: 2rem;
+}
+
+.team-controls {
+  display: none;
 }
 
 .contact-layout {
@@ -353,7 +357,6 @@
   .split-section.is-inverted .split-inner,
   .contact-layout,
   .values,
-  .team-grid,
   .contact-form {
     grid-template-columns: 1fr;
   }
@@ -385,9 +388,79 @@
     margin-bottom: 1.75rem;
   }
 
-  .values,
-  .team-grid {
+  .values {
     gap: 1.5rem;
     margin-top: 1.75rem;
+  }
+
+  .team-carousel {
+    margin-top: 1.75rem;
+  }
+
+  .team-grid {
+    display: flex;
+    gap: 0;
+    margin-top: 0;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .team-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .team-grid > article {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+  }
+
+  .member-frame {
+    width: 13rem;
+  }
+
+  .team-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.35rem;
+  }
+
+  .team-nav {
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 1px solid var(--color-line);
+    background: transparent;
+    color: var(--color-ink);
+    font-size: 1.35rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .team-nav:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+
+  .team-dots {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .team-dots button {
+    width: 0.5rem;
+    height: 0.5rem;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: var(--color-line);
+    cursor: pointer;
+  }
+
+  .team-dots button.is-active {
+    background: var(--color-bronze);
   }
 }
