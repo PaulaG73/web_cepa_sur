@@ -21,8 +21,8 @@
       "Visão humanista",
       "Transformação"
     ],
-    "lead": "Governança familiar e corporativa para quem cuida do legado, organiza as decisões e resguarda o que é essencial.",
-    "support": "Acompanhamos famílias empresárias com um olhar sistêmico de sua governança para que possam alcançar seu máximo potencial, apoiando sua criação de valor.",
+    "purpose": "Acompanhar quem decide, para que família e patrimônio se sustentem no tempo.",
+    "lead": "Governança familiar e corporativa, com olhar sistêmico, para explicitar a proposta de valor de cada grupo e sustentá-la nas decisões da empresa e da propriedade.",
     "cta": "Conversemos",
     "aside": "Confidencialidade absoluta"
   },
@@ -76,7 +76,7 @@
     "title": "A Empresa",
     "more": "Ver mais",
     "less": "Ver menos",
-    "statement": "Somos uma equipe multidisciplinar que combina a engenharia com as humanidades. Aportamos paixão, rigor e criatividade por meio de um enfoque sistêmico que nos permite facilitar acordos nos distintos níveis e apoiar a formação e o funcionamento do Conselho de Família, do conselho e da alta administração.",
+    "statement": "Somos uma equipe multidisciplinar que combina a engenharia com as humanidades. Aportamos paixão, rigor e criatividade por meio de um enfoque sistêmico que nos permite facilitar acordos nos distintos níveis e apoiar a formação e o funcionamento do Conselho de Família, do Conselho e da alta administração.",
     "body": "Operamos com equipes reduzidas, mandato claro e absoluta reserva. Não somos uma firma massiva: escolhemos poucos mandatos para acompanhá-los com profundidade. Nosso trabalho ocorre fora do palco público — em conselhos, órgãos de família e conversas que exigem discrição.",
     "values": [
       {
@@ -157,6 +157,8 @@
   },
   "footer": {
     "rights": "Todos os direitos reservados.",
+    "phone": "+56 9 XXXX XXXX",
+    "email": "contacto@cepasur.cl",
     "linkedinUrl": "https://www.linkedin.com/company/cepa-sur",
     "linkedinLabel": "linkedin.com/company/cepa-sur"
   }

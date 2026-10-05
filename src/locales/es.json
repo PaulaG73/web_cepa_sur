@@ -21,8 +21,8 @@
       "Visión humanista",
       "Transformación"
     ],
-    "lead": "Gobierno familiar y corporativo para quienes cuidan el legado, ordenan las decisiones y resguardan lo esencial.",
-    "support": "Acompañamos a familias empresarias con una mirada sistémica de su gobierno para que puedan alcanzar su máximo potencial, apoyando su creación de valor.",
+    "purpose": "Acompañar a quienes deciden, para que familia y patrimonio se sostengan en el tiempo.",
+    "lead": "Gobierno familiar y corporativo, con mirada sistémica, para explicitar la propuesta de valor de cada grupo y sostenerla en las decisiones de empresa y propiedad.",
     "cta": "Conversemos",
     "aside": "Confidencialidad absoluta"
   },
@@ -76,7 +76,7 @@
     "title": "La Empresa",
     "more": "Ver más",
     "less": "Ver menos",
-    "statement": "Somos un equipo multidisciplinario que combina la ingeniería con las humanidades, aportamos pasión, rigor y creatividad a través de un enfoque sistémico que nos permite facilitar acuerdos en los distintos niveles, apoyar la conformación y funcionamiento del Consejo de Familia, directorio y alta administración.",
+    "statement": "Somos un equipo multidisciplinario que combina la ingeniería con las humanidades, aportamos pasión, rigor y creatividad a través de un enfoque sistémico que nos permite facilitar acuerdos en los distintos niveles, apoyar la conformación y funcionamiento del Consejo de Familia, Directorio y alta administración.",
     "body": "Operamos con equipos reducidos, mandato claro y absoluta reserva. No somos una firma masiva: elegimos pocos encargos para acompañarlos con profundidad. Nuestro trabajo ocurre fuera del escenario público — en directorios, consejos de familia y conversaciones que requieren discreción.",
     "values": [
       {
@@ -157,6 +157,8 @@
   },
   "footer": {
     "rights": "Todos los derechos reservados.",
+    "phone": "+56 9 XXXX XXXX",
+    "email": "contacto@cepasur.cl",
     "linkedinUrl": "https://www.linkedin.com/company/cepa-sur",
     "linkedinLabel": "linkedin.com/company/cepa-sur"
   }

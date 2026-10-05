@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Systemic view, Humanistic vision, Transformation — Cepa Sur"
+    "title": "Systemic view, Humanist view, Transformation — Cepa Sur"
   },
   "nav": {
     "home": "Home",
@@ -15,16 +15,16 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "kicker": "Tailored advisory",
+    "kicker": "Bespoke advisory",
     "concepts": [
       "Systemic view",
-      "Humanistic vision",
+      "Humanist view",
       "Transformation"
     ],
-    "lead": "Family and corporate governance for those who protect a legacy, bring order to decisions, and safeguard what matters most.",
-    "support": "We accompany business families with a systemic view of their governance so they can reach their full potential, supporting their creation of value.",
-    "cta": "Let's talk",
-    "aside": "Absolute confidentiality"
+    "purpose": "Advise those who decide, so that family and wealth endure.",
+    "lead": "Family and corporate governance, with a systemic view: to articulate what each group stands for, and to uphold it in the decisions of company and ownership.",
+    "cta": "Get in touch",
+    "aside": "Complete discretion"
   },
   "familyGov": {
     "kicker": "Services",
@@ -76,19 +76,19 @@
     "title": "The Firm",
     "more": "Read more",
     "less": "Read less",
-    "statement": "We are a multidisciplinary team that combines engineering with the humanities. We bring passion, rigour and creativity through a systemic approach that allows us to facilitate agreements at different levels and to support the formation and working of the family council, the board and senior management.",
+    "statement": "We are a multidisciplinary team that combines engineering with the humanities. We bring passion, rigour and creativity through a systemic approach that allows us to facilitate agreements at different levels and to support the formation and working of the Family Council, the Board and senior management.",
     "body": "We operate with small teams, a clear mandate, and complete discretion. We are not a mass-market firm: we accept few engagements in order to accompany them in depth. Our work takes place off the public stage — in boardrooms, family councils, and conversations that require reserve.",
     "values": [
       {
-        "title": "Reserve",
+        "title": "Discretion",
         "text": "Nothing entrusted to us circulates beyond the mandate."
       },
       {
-        "title": "Measure",
-        "text": "Each process is designed for that family and that company, not for a catalogue."
+        "title": "Tailored",
+        "text": "Each engagement is designed for that family and that company, not taken from a catalogue."
       },
       {
-        "title": "Seriousness",
+        "title": "Rigour",
         "text": "Written agreements, realistic timelines, and a direct relationship with those who decide."
       }
     ]
@@ -126,7 +126,7 @@
   "contact": {
     "kicker": "Contact",
     "number": "3",
-    "title": "Let's talk",
+    "title": "Get in touch",
     "lead": "Tell us, in general terms, the reason for your enquiry. We will reply directly and in confidence.",
     "note": "Conversations with Cepa Sur are treated as confidential. We do not share information with third parties.",
     "submit": "Send enquiry",
@@ -157,6 +157,8 @@
   },
   "footer": {
     "rights": "All rights reserved.",
+    "phone": "+56 9 XXXX XXXX",
+    "email": "contacto@cepasur.cl",
     "linkedinUrl": "https://www.linkedin.com/company/cepa-sur",
     "linkedinLabel": "linkedin.com/company/cepa-sur"
   }

@@ -9,10 +9,10 @@
           <span class="hero-concept">{{ concept }}</span>
         </template>
       </h1>
+      <p class="hero-purpose">{{ t('hero.purpose') }}</p>
       <div class="hero-grid">
         <div>
           <p class="hero-lead">{{ t('hero.lead') }}</p>
-          <p class="hero-support">{{ t('hero.support') }}</p>
           <a class="btn" :href="contactHref" @click.prevent="goContact">{{ t('hero.cta') }}</a>
         </div>
         <p class="hero-aside">{{ t('hero.aside') }}</p>
