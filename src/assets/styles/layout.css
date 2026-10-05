@@ -16,7 +16,7 @@
   content: "";
   position: absolute;
   inset: 0 0 auto;
-  height: 3px;
+  height: 5px;
   background: var(--color-depth);
 }
 

@@ -1,5 +1,8 @@
 <template>
   <section id="inicio" class="hero">
+    <div class="hero-visual" aria-hidden="true">
+      <img src="/img/hero-watermark-1c.jpg" alt="">
+    </div>
     <div class="hero-inner">
       <span class="kicker">{{ t('hero.kicker') }}</span>
       <div class="hero-line"></div>
@@ -11,10 +14,8 @@
       </h1>
       <p class="hero-purpose">{{ t('hero.purpose') }}</p>
       <div class="hero-grid">
-        <div>
-          <p class="hero-lead">{{ t('hero.lead') }}</p>
-          <a class="btn" :href="contactHref" @click.prevent="goContact">{{ t('hero.cta') }}</a>
-        </div>
+        <p class="hero-lead">{{ t('hero.lead') }}</p>
+        <a class="btn" :href="contactHref" @click.prevent="goContact">{{ t('hero.cta') }}</a>
         <p class="hero-aside">{{ t('hero.aside') }}</p>
       </div>
     </div>
