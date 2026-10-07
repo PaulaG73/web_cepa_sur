@@ -1,5 +1,8 @@
 <template>
-  <section id="gobierno-familiar" class="section">
+  <section id="gobierno-familiar" class="section has-visual">
+    <div class="section-visual is-on-light is-actas" aria-hidden="true">
+      <img src="/img/section-family-actas-pen2.jpg" alt="">
+    </div>
     <div class="split-section">
       <div>
         <span class="section-number">{{ t('familyGov.number') }}</span>

@@ -121,6 +121,51 @@
   margin: 0 0 1.4rem;
 }
 
+.section.has-visual {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.section-visual {
+  position: absolute;
+  z-index: 0;
+  inset: 0 50% 0 0;
+  pointer-events: none;
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, #000 0%, #000 58%, transparent 100%);
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 58%, transparent 100%);
+}
+
+.section-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 40% 50%;
+}
+
+.section-visual.is-protocol img,
+.section-visual.is-actas img,
+.section-visual.is-sello img {
+  object-position: 52% 70%;
+}
+
+.section-visual.is-on-light img {
+  opacity: 0.36;
+  filter: grayscale(0.06) saturate(0.88) contrast(1.04) brightness(1.06);
+}
+
+.section-visual.is-on-dark img {
+  opacity: 0.34;
+  filter: grayscale(0.06) saturate(0.85) contrast(1.04) brightness(1.12);
+}
+
+.section.has-visual > .split-section,
+.section.has-visual > .split-inner {
+  position: relative;
+  z-index: 1;
+}
+
 .split-section {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
@@ -437,6 +482,17 @@
 }
 
 @media (max-width: 900px) {
+  .section-visual {
+    inset: 0 0 auto 0;
+    height: 48%;
+    mask-image: linear-gradient(180deg, #000 0%, #000 42%, transparent 100%);
+    -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 42%, transparent 100%);
+  }
+
+  .section-visual.is-on-light img {
+    opacity: 0.3;
+  }
+
   .hero-visual {
     inset: auto 0 0 0;
     height: 40%;

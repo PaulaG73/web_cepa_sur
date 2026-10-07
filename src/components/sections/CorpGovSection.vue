@@ -1,5 +1,8 @@
 <template>
-  <section id="gobierno-corporativo" class="section split-section is-inverted">
+  <section id="gobierno-corporativo" class="section split-section is-inverted has-visual">
+    <div class="section-visual is-on-dark" aria-hidden="true">
+      <img src="/img/section-corp.jpg" alt="">
+    </div>
     <div class="split-inner">
       <div>
         <span class="section-number">{{ t('corpGov.number') }}</span>
