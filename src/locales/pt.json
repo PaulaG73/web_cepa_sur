@@ -8,21 +8,21 @@
     "familyGov": "Governança Familiar",
     "corpGov": "Governança Corporativa",
     "about": "Sobre nós",
-    "company": "Empresa",
+    "company": "O nosso olhar",
     "team": "Equipe",
     "contact": "Contato",
     "openMenu": "Abrir menu",
     "closeMenu": "Fechar menu"
   },
   "hero": {
-    "kicker": "Acompanhamento sob medida",
+    "kicker": "Propomos um sistema de governo sob medida",
     "concepts": [
       "Olhar sistêmico",
       "Visão humanista",
       "Transformação"
     ],
     "purpose": "Acompanhar quem decide, para que família e patrimônio se sustentem no tempo.",
-    "lead": "Governança familiar e corporativa, com olhar sistêmico, para explicitar a proposta de valor de cada grupo e sustentá-la nas decisões da empresa e da propriedade.",
+    "lead": "Governança familiar e corporativa, com olhar sistêmico, para explicitar o propósito compartilhado e sustentá-lo nas decisões da empresa e da propriedade.",
     "cta": "Conversemos",
     "aside": "Confidencialidade absoluta"
   },
@@ -30,7 +30,7 @@
     "kicker": "Serviços",
     "number": "1.1",
     "title": "Governança Familiar",
-    "statement": "Propomos um desenho sob medida e acompanhamos a implementação do sistema de governança, buscando o equilíbrio entre a família e a empresa. Cuidamos da sucessão e das relações nas transferências geracionais, para que o patrimônio e a empresa durem: com regras claras, discutidas com respeito e sustentadas no tempo.",
+    "statement": "Propomos um desenho sob medida e acompanhamos a implementação do sistema de governança, buscando o equilíbrio que cria valor entre a família e a empresa. Cuidamos da sucessão e das relações nas transferências geracionais, para que o patrimônio e a empresa durem: com regras claras, discutidas com respeito e sustentadas no tempo.",
     "more": "Ver mais",
     "less": "Ver menos",
     "points": [
@@ -66,14 +66,14 @@
       },
       {
         "title": "Continuidade institucional",
-        "text": "Estruturas que permitem crescer, associar-se ou suceder sem improvisar a governança."
+        "text": "Estruturas que permitem crescer, associar-se ou gerir a sucessão sem improvisar a governança."
       }
     ]
   },
   "company": {
     "kicker": "Sobre nós",
     "number": "2.1",
-    "title": "A Empresa",
+    "title": "O nosso olhar",
     "more": "Ver mais",
     "less": "Ver menos",
     "statement": "Somos uma equipe multidisciplinar que combina a engenharia com as humanidades. Aportamos paixão, rigor e criatividade por meio de um enfoque sistêmico que nos permite facilitar acordos nos distintos níveis e apoiar a formação e o funcionamento do Conselho de Família, do Conselho e da alta administração.",
@@ -97,7 +97,7 @@
     "kicker": "Sobre nós",
     "number": "2.2",
     "title": "Equipe",
-    "lead": "Um núcleo reduzido de sócios e assessores, com experiência em governança, família empresária e conselhos.",
+    "lead": "Um núcleo reduzido de sócios e assessores, com experiência em governança corporativa, família empresária e conselhos.",
     "note": "Os perfis definitivos serão publicados com autorização de cada integrante.",
     "linkedin": "LinkedIn",
     "prev": "Integrante anterior",

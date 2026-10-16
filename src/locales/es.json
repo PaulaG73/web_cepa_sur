@@ -8,21 +8,21 @@
     "familyGov": "Gobierno Familiar",
     "corpGov": "Gobierno Corporativo",
     "about": "Nosotros",
-    "company": "Empresa",
+    "company": "Nuestra mirada",
     "team": "Equipo",
     "contact": "Contacto",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú"
   },
   "hero": {
-    "kicker": "Acompañamiento a medida",
+    "kicker": "Proponemos un sistema de gobierno a la medida",
     "concepts": [
       "Mirada Sistémica",
       "Visión humanista",
       "Transformación"
     ],
     "purpose": "Acompañar a quienes deciden, para que familia y patrimonio se sostengan en el tiempo.",
-    "lead": "Gobierno familiar y corporativo, con mirada sistémica, para explicitar la propuesta de valor de cada grupo y sostenerla en las decisiones de empresa y propiedad.",
+    "lead": "Gobierno familiar y corporativo, con mirada sistémica, para explicitar el propósito compartido y sostenerlo en las decisiones de empresa y propiedad.",
     "cta": "Conversemos",
     "aside": "Confidencialidad absoluta"
   },
@@ -30,7 +30,7 @@
     "kicker": "Servicios",
     "number": "1.1",
     "title": "Gobierno Familiar",
-    "statement": "Proponemos un diseño a la medida y acompañamos la puesta en marcha del sistema de gobierno, buscando el equilibrio entre la familia y la empresa. Cuidamos la sucesión y las relaciones en los traspasos generacionales, para que el patrimonio y la empresa perduren: con reglas claras, discutidas con respeto y sostenidas en el tiempo.",
+    "statement": "Proponemos un diseño a la medida y acompañamos la puesta en marcha del sistema de gobierno, buscando el equilibrio que crea valor entre la familia y la empresa. Cuidamos la sucesión y las relaciones en los traspasos generacionales, para que el patrimonio y la empresa perduren: con reglas claras, discutidas con respeto y sostenidas en el tiempo.",
     "more": "Ver más",
     "less": "Ver menos",
     "points": [
@@ -66,14 +66,14 @@
       },
       {
         "title": "Continuidad institucional",
-        "text": "Estructuras que permiten crecer, asociarse o suceder sin improvisar el gobierno."
+        "text": "Estructuras que permiten crecer, asociarse o gestionar la sucesión sin improvisar el gobierno."
       }
     ]
   },
   "company": {
     "kicker": "Nosotros",
     "number": "2.1",
-    "title": "La Empresa",
+    "title": "Nuestra mirada",
     "more": "Ver más",
     "less": "Ver menos",
     "statement": "Somos un equipo multidisciplinario que combina la ingeniería con las humanidades, aportamos pasión, rigor y creatividad a través de un enfoque sistémico que nos permite facilitar acuerdos en los distintos niveles, apoyar la conformación y funcionamiento del Consejo de Familia, Directorio y alta administración.",
@@ -97,7 +97,7 @@
     "kicker": "Nosotros",
     "number": "2.2",
     "title": "Equipo",
-    "lead": "Un núcleo reducido de socios y asesores, con experiencia en gobierno, familia empresaria y directorios.",
+    "lead": "Un núcleo reducido de socios y asesores, con experiencia en gobierno corporativo, familia empresaria y directorios.",
     "note": "Los perfiles definitivos se publicarán con autorización de cada integrante.",
     "linkedin": "LinkedIn",
     "prev": "Integrante anterior",

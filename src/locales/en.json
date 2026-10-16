@@ -8,21 +8,21 @@
     "familyGov": "Family Governance",
     "corpGov": "Corporate Governance",
     "about": "About",
-    "company": "Firm",
+    "company": "Our view",
     "team": "Team",
     "contact": "Contact",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
   "hero": {
-    "kicker": "Bespoke advisory",
+    "kicker": "We propose a tailored system of governance",
     "concepts": [
       "Systemic view",
       "Humanist view",
       "Transformation"
     ],
     "purpose": "Advise those who decide, so that family and wealth endure.",
-    "lead": "Family and corporate governance, with a systemic view: to articulate what each group stands for, and to uphold it in the decisions of company and ownership.",
+    "lead": "Family and corporate governance, with a systemic view: to articulate the shared purpose and uphold it in the decisions of company and ownership.",
     "cta": "Get in touch",
     "aside": "Complete discretion"
   },
@@ -30,7 +30,7 @@
     "kicker": "Services",
     "number": "1.1",
     "title": "Family Governance",
-    "statement": "We propose a tailored design and accompany the implementation of the governance system, seeking the right balance between family and company. We care for succession and for relationships in generational transfers, so that wealth and the enterprise endure: with clear rules, discussed with respect and upheld over time.",
+    "statement": "We propose a tailored design and accompany the implementation of the governance system, seeking the balance that creates value between family and company. We care for succession and for relationships in generational transfers, so that wealth and the enterprise endure: with clear rules, discussed with respect and upheld over time.",
     "more": "Read more",
     "less": "Show less",
     "points": [
@@ -66,14 +66,14 @@
       },
       {
         "title": "Institutional continuity",
-        "text": "Structures that allow growth, partnership, or succession without improvising governance."
+        "text": "Structures that allow growth, partnership, or managing succession without improvising governance."
       }
     ]
   },
   "company": {
     "kicker": "About",
     "number": "2.1",
-    "title": "The Firm",
+    "title": "Our view",
     "more": "Read more",
     "less": "Read less",
     "statement": "We are a multidisciplinary team that combines engineering with the humanities. We bring passion, rigour and creativity through a systemic approach that allows us to facilitate agreements at different levels and to support the formation and working of the Family Council, the Board and senior management.",
@@ -97,7 +97,7 @@
     "kicker": "About",
     "number": "2.2",
     "title": "Team",
-    "lead": "A small core of partners and advisers, experienced in governance, business families, and boards.",
+    "lead": "A small core of partners and advisers, experienced in corporate governance, business families, and boards.",
     "note": "Final profiles will be published with each member’s authorization.",
     "linkedin": "LinkedIn",
     "prev": "Previous member",

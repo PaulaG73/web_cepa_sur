@@ -15,7 +15,7 @@
             </a>
           </li>
           <li :class="['nav-drop', { 'is-open': openDrop === 'services' }]">
-            <button type="button" @click="toggleDrop('services')">
+            <button class="nav-link" type="button" @click="toggleDrop('services')">
               {{ t('nav.services') }}
             </button>
             <div class="nav-drop-menu">
@@ -28,7 +28,7 @@
             </div>
           </li>
           <li :class="['nav-drop', { 'is-open': openDrop === 'about' }]">
-            <button type="button" @click="toggleDrop('about')">
+            <button class="nav-link" type="button" @click="toggleDrop('about')">
               {{ t('nav.about') }}
             </button>
             <div class="nav-drop-menu">

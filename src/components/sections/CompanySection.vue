@@ -6,8 +6,8 @@
         <span class="kicker">{{ t('company.kicker') }}</span>
         <h2 class="section-title">{{ t('company.title') }}</h2>
         <p class="lead">{{ t('company.statement') }}</p>
+        <p class="lead">{{ t('company.body') }}</p>
       </div>
-      <p>{{ t('company.body') }}</p>
       <button
         class="more-toggle"
         type="button"
