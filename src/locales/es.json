@@ -15,7 +15,7 @@
     "closeMenu": "Cerrar menú"
   },
   "hero": {
-    "kicker": "Proponemos un sistema de gobierno a la medida",
+    "kicker": "Proponemos un sistema de gobierno que aporte valor a la relación entre familia, empresa y propiedad",
     "concepts": [
       "Mirada Sistémica",
       "Visión humanista",
@@ -157,6 +157,7 @@
   },
   "footer": {
     "rights": "Todos los derechos reservados.",
+    "credit": "Sitio creado por PWEBDEV",
     "phone": "+56 9 XXXX XXXX",
     "email": "contacto@cepasur.cl",
     "linkedinUrl": "https://www.linkedin.com/company/cepa-sur",

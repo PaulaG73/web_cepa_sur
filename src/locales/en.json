@@ -8,21 +8,21 @@
     "familyGov": "Family Governance",
     "corpGov": "Corporate Governance",
     "about": "About",
-    "company": "Our view",
+    "company": "Our perspective",
     "team": "Team",
     "contact": "Contact",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
   "hero": {
-    "kicker": "We propose a tailored system of governance",
+    "kicker": "We propose a system of governance that creates value in the relationship between family, company and ownership",
     "concepts": [
       "Systemic view",
       "Humanist view",
       "Transformation"
     ],
     "purpose": "Advise those who decide, so that family and wealth endure.",
-    "lead": "Family and corporate governance, with a systemic view: to articulate the shared purpose and uphold it in the decisions of company and ownership.",
+    "lead": "Family and corporate governance, with a systemic view: to articulate a shared purpose and to sustain it in company and ownership decisions.",
     "cta": "Get in touch",
     "aside": "Complete discretion"
   },
@@ -157,6 +157,7 @@
   },
   "footer": {
     "rights": "All rights reserved.",
+    "credit": "Site by PWEBDEV",
     "phone": "+56 9 XXXX XXXX",
     "email": "contacto@cepasur.cl",
     "linkedinUrl": "https://www.linkedin.com/company/cepa-sur",

@@ -15,7 +15,7 @@
     "closeMenu": "Fechar menu"
   },
   "hero": {
-    "kicker": "Propomos um sistema de governo sob medida",
+    "kicker": "Propomos um sistema de governança que gera valor na relação entre família, empresa e propriedade",
     "concepts": [
       "Olhar sistêmico",
       "Visão humanista",
@@ -157,6 +157,7 @@
   },
   "footer": {
     "rights": "Todos os direitos reservados.",
+    "credit": "Site criado por PWEBDEV",
     "phone": "+56 9 XXXX XXXX",
     "email": "contacto@cepasur.cl",
     "linkedinUrl": "https://www.linkedin.com/company/cepa-sur",

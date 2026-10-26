@@ -253,12 +253,25 @@
   background: #1a221e;
   padding: 1.15rem 1.25rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
 }
 
 .footer-meta {
   margin: 0;
   font-size: 0.82rem;
   color: rgba(244, 239, 230, 0.62);
+}
+
+.footer-credit {
+  margin: 0;
+  font-size: 0.64rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(244, 239, 230, 0.32);
 }
 
 @media (max-width: 900px) {

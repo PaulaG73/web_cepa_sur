@@ -35,6 +35,7 @@
     </div>
     <div class="footer-bottom">
       <p class="footer-meta">© {{ year }} Cepa Sur. {{ t('footer.rights') }}</p>
+      <p class="footer-credit">{{ t('footer.credit') }}</p>
     </div>
   </footer>
 </template>
